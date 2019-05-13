@@ -1,6 +1,3 @@
-# -*- encoding=utf-8 -*-
-# Author: Kevin
-# @Time: 2019/05/13 21:41
 from loggerDefine import loggerDefine
 
 logger = loggerDefine("mylog.log")

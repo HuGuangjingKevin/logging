@@ -12,7 +12,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 def loggerDefine(loggerFile):
     # 定义日志输出格式
-    formattler = '%(asctime)s|%(processName)s|%(threadName)s|%(levelname)s|%(filename)s:%(lineno)d|%(funcName)s|%(message)s'
+    formattler = '%(asctime)s|%(processName)s|%(threadName)s|%(levelname)s|%(pathname)s|%(filename)s:%(lineno)d|%(funcName)s|%(message)s'
     fmt = logging.Formatter(formattler)
 
     # 获得logger，默认获得root logger对象
